@@ -4,7 +4,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # NFC
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.nfc.sec_hal=true
+	ro.nfc.fw_dl_on_boot=false
 
 # EONS
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
